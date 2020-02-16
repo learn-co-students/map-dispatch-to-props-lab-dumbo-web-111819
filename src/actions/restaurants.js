@@ -5,4 +5,11 @@ export const addRestaurant = (restaurant) => {
   };
 };
 
+export const removeRestaurant = (restaurant) => {
+  return {
+    type: 'REMOVE_RESTAURANT',
+    restaurant
+  };
+};
+
 
